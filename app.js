@@ -12,30 +12,37 @@ inicializarLanterna()
 
 function tocarSom() {
     som.play()
+    
+    
 }
 
 function pararsom() {
     som.pause()
+  
 }
 
 botao.addEventListener('mousedown', (Event) => {
     Event.preventDefault()
   tocarSom()
+  ligar()
 })
 
 botao.addEventListener('mouseup', (Event) => {
    Event.preventDefault();
   pararsom()
+  desligar()
 })
 
 botao.addEventListener('touchstart', (Event) => {
     Event.preventDefault()
   tocarSom()
+  ligar()
 })
 
 botao.addEventListener('touchend', (Event) => {
    Event.preventDefault();
   pararsom()
+  desligar()
 })
 
 
