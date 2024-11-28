@@ -44,6 +44,7 @@ botao.addEventListener('touchend', (Event) => {
    Event.preventDefault();
   pararsom()
   desligar()
+  inicializarLanterna()
 })
 
 
