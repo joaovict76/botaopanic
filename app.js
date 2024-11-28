@@ -67,7 +67,7 @@ async function ligar() {
       try {
           await track.applyConstraints({ advanced: [{ torch: true }] })
       } catch (error) {
-          console.log(`Erro ao inicializar a lanterna: ${error}`)
+          console.error(`Erro ao inicializar a lanterna: ${error}`)
       }
   }
 }
