@@ -37,6 +37,7 @@ botao.addEventListener('touchstart', (Event) => {
     Event.preventDefault()
   tocarSom()
   ligar()
+  inicializarLanterna()
 })
 
 botao.addEventListener('touchend', (Event) => {
