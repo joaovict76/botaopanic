@@ -7,6 +7,9 @@ const botao = document.getElementById('botao');
 let som = new Audio("som/risadakiko.mp3");
 
 
+let stream, track
+inicializarLanterna()
+
 function tocarSom() {
     som.play()
 }
